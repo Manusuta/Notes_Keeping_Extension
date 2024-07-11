@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(242, 242, 7); /* Yellow */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.notes {
+    font-size: 2.5rem;
+    color: #000000; /* Black */
+    margin-bottom: 2rem;
+}
+
+.notes-image {
+    width: 60px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.thought-container {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.thought {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}
+.day{
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn1, .btn2 {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #050605; /* Black */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition */
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: #262826; /* Darker Black */
+    transform: scale(1.1); /* Added scale effect */
+}
+
+.btn1:active, .btn2:active {
+    transform: scale(0.95); /* Shrink button on click */
+}

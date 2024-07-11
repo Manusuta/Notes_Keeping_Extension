@@ -1,0 +1,20 @@
+{
+  "name":"NOTES KEEPING",
+  "version":"0.0.1",
+  "description":"Keep your notes here",
+  "manifest_version":3,
+  "author":"Manusuta chauhan",
+  "action":{
+      "default_popup":"index.html",
+      "default_title":"NOTES",
+      "default_icon":"notes.png"
+  },
+  "icons":{
+      "148":"notes.png"
+      
+  },
+  "permissions": [
+    "storage"
+  ] 
+
+}
